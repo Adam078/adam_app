@@ -16,6 +16,7 @@ group :assets do
   gem 'coffee-rails', '~> 4.0.0'
 end
 # Use SCSS for stylesheets
+gem 'turbolinks'
 
 gem 'jquery-rails'
 
@@ -25,8 +26,8 @@ end
 
 group :production do
   gem 'pg'
-
 end
+
 # Use ActiveModel has_secure_password
 # gem 'bcrypt', '~> 3.1.7'
 
